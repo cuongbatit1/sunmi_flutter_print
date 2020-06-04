@@ -5,7 +5,9 @@ SUNMI PRINTER ONLY DEVICE SUNMI.
 
 ## Installing
 
-Use this package as a library
+###1. Depend on it
+
+Add this to your package's pubspec.yaml file:
 
 ``` yaml
 sunmi_flutter_print: 
