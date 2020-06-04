@@ -5,7 +5,7 @@ SUNMI PRINTER ONLY DEVICE SUNMI.
 
 ## Installing
 
-###1. Depend on it
+### 1. Depend on it
 
 Add this to your package's pubspec.yaml file:
 
