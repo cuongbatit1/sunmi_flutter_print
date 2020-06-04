@@ -7,7 +7,7 @@ SUNMI PRINTER ONLY DEVICE SUNMI.
 
 Use this package as a library
 
-``` dart
+``` yaml
 sunmi_flutter_print: 
     git:
       url: git://github.com/cuongbatit1/sunmi_flutter_print.git
