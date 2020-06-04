@@ -1,0 +1,50 @@
+group 'com.king.sunmi_flutter_print'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.0.0'
+    }
+}
+
+rootProject.allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+apply plugin: 'com.android.library'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion 29
+
+    defaultConfig {
+        minSdkVersion 15
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    lintOptions {
+        disable 'InvalidPackage'
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation "androidx.core:core-ktx:+"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'com.sunmi:printerlibrary:1.0.8'
+}
+repositories {
+    mavenCentral()
+}
