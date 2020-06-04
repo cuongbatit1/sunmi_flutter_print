@@ -1,5 +1,4 @@
 import 'dart:typed_data';
-import 'package:meta/meta.dart';
 import 'package:flutter/foundation.dart';
 
 /// EXAMPLE FOR CONVERT STRING TO BYTES

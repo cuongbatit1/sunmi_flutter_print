@@ -1,7 +1,8 @@
 name: sunmi_flutter_print
 description: SUNMI PRINTER ONLY DEVICE SUNMI.
 version: 0.0.1
-author: 'cuongbatit1<cuongbatit1@gmail.com>'
+# authors: 
+#   -cuongbatit1<cuongbatit1@gmail.com>'
 homepage: 'https://github.com/cuongbatit1/flutter_sunmi_printer'
 
 environment:
@@ -24,9 +25,14 @@ flutter:
   # The androidPackage and pluginClass identifiers should not ordinarily
   # be modified. They are used by the tooling to maintain consistency when
   # adding or updating assets for this project.
+
   plugin:
-    androidPackage: com.king.sunmi_flutter_print
-    pluginClass: SunmiFlutterPrintPlugin
+    platforms:
+      android:
+        package: com.king.sunmi_flutter_print
+        pluginClass: SunmiFlutterPrintPlugin
+      ios:
+        pluginClass: SunmiFlutterPrintPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
