@@ -1,6 +1,12 @@
-# sunmi
+# sunmi_flutter_print
 
 SUNMI PRINTER ONLY DEVICE SUNMI.
+
+## Library Android native from https://docs.sunmi.com
+    
+    dependencies{
+      implementation 'com.sunmi:printerlibrary:1.0.8'
+    }
 
 
 ## Installing
@@ -31,6 +37,11 @@ Alternatively, your editor might support flutter pub get. Check the docs for you
 Now in your Dart code, you can use:
 
 ```yaml
-import 'package:flutter_slidable/flutter_slidable.dart';
+import 'package:sunmi_flutter_print/models.dart';
+import 'package:sunmi_flutter_print/sunmi_flutter_print.dart';
 ```
-  
+## Example:
+
+```yaml
+https://github.com/cuongbatit1/sunmi_flutter_print/blob/master/example/lib/main.dart
+```
